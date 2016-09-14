@@ -1,0 +1,30 @@
+/*This is for the search bar*/
+.search-bar {
+	margin: 20px;
+	text-align: center;
+}
+/*This makes the input bar much larger so that it can take a lot more text*/
+.search-bar input {
+	width: 75%;
+}
+/*This is for the thumbnail*/
+.video-item img {
+	max-width: 64px;
+}
+/*This is for the individual video details descriptions*/
+.video-detail .details {
+	margin-top:10px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+/*This will it make it so that instead of an arrow when clicking on one of the group items,
+it will instead show a hand with a pointing finger to show that the item is clickable
+and that you are able to select it for the top.*/
+.list-group-item {
+	cursor: pointer;
+}
+/*This will make it hover with a background of grey*/
+.list-group-item:hover {
+	background-color: #eee;
+}
