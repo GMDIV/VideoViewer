@@ -5,7 +5,12 @@ const VideoList = (props) => {
 	 //sets bootstrap column to 4 and gives a list group as well
 	 //etag is a property for each of the videos that we get in from the search. It is a long unique identifier hex.
     const videoItems = props.videos.map((video) => {
-    	return <VideoListItem key={video.etag} video = {video} />
+    	return (
+    		<VideoListItem 
+    			onVideoSelect={props.onVideoSelect}
+    			key={video.etag} 
+    			video = {video} />
+    	)
     });
 
 	return (
