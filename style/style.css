@@ -14,7 +14,7 @@
 /*This is for the individual video details descriptions*/
 .video-detail .details {
 	margin-top:10px;
-	padding: 10px;
+	padding: 30px;
 	border: 1px solid #ddd;
 	border-radius: 4px;
 }
@@ -23,8 +23,30 @@ it will instead show a hand with a pointing finger to show that the item is clic
 and that you are able to select it for the top.*/
 .list-group-item {
 	cursor: pointer;
+	width: 20em;
+	float: right;
+	left: 48em;
 }
 /*This will make it hover with a background of grey*/
 .list-group-item:hover {
 	background-color: #eee;
 }
+
+#player {
+	width: 50%;
+}
+
+.video-detail.col-mid-8 {
+	width: 40%;
+	position: absolute;
+
+}
+
+
+/*Need to fix issue with this as it is blocking part of the main video and should be connected to .list-group-item*/
+/*.col-md-4.list-group {
+	cursor: pointer;
+	width: 20em;
+	float: right;
+	left: 48em;
+}*/
